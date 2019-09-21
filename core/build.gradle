@@ -1,0 +1,21 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+  compile "com.badlogicgames.gdx:gdx:$gdxVersion"
+  compile "io.github.libktx:ktx-app:$ktxAppVersion"
+  compile "io.github.libktx:ktx-graphics:$ktxGraphicsVersion"
+  compile "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+  compile "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+  compile "com.badlogicgames.gdx:gdx-controllers:$gdxVersion"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+
+  compile group: 'org.jetbrains.kotlinx', name: 'kotlinx-coroutines-core', version: '1.1.1'
+
+
+  compile group: 'io.github.libktx', name: 'ktx-actors', version: '1.9.9-b1'
+  compile group: 'io.github.libktx', name: 'ktx-scene2d', version: '1.9.9-b1'
+  compile group: 'io.github.libktx', name: 'ktx-log', version: '1.9.9-b1'
+  compile group: 'io.github.libktx', name: 'ktx-async', version: '1.9.9-b1'
+}
+        
